@@ -36,7 +36,7 @@ header h1 {
     color: #BBC085;
     font-weight: 400;
     padding: 65px 0 65px 25px;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 nav {
@@ -75,6 +75,10 @@ nav ul li a {
     color: #9b9b9b;
 }
 
+#home a:hover {
+    color: #C49075;
+}
+
 /***** ABOUT SECTION *****/
 
 #about {
@@ -101,6 +105,7 @@ nav ul li a {
     color: #7F7F7F;
     line-height: 40px;
     padding-left: 50px;
+    padding-right: 33px
 }
 
 #about p span {
@@ -130,7 +135,7 @@ nav ul li a {
 
 #study h2 {
     font-family: 'Lora', serif;
-    font-size: 24px;
+    font-size: 36px;
     padding-left: 50px;
     margin: 30px 0;
 }
@@ -188,7 +193,7 @@ nav ul li a {
     font-size: 24px;
 }
 
-#work p {
+/*#work p {
     font-family: 'Lora', serif;
     font-size: 18px;
     font-style: italic;
@@ -196,6 +201,15 @@ nav ul li a {
     padding-left: 24px;
     padding-right: 24px;
 
+}*/
+
+#work ul {
+    text-align: left;
+    line-height: 28px;
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    font-style: italic;
+    padding-left: 84px;
 }
 
 #work #city-cycles img {
@@ -300,4 +314,12 @@ nav ul li a {
 #contact ul img {
     font-size: 32px;
     padding-right: 48px;
+}
+
+
+/***** CITY CYCLES *****/
+
+/***** CC - HOME *****/
+#city-cycles a:hover {
+    color: #C49075;
 }
