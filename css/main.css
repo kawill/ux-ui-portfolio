@@ -30,7 +30,7 @@ body {
     background-size: cover;
 }
 
-#home header h1 {
+#home h1 {
     font-family: 'Lora', serif;
     font-size: 30px;
     color: #BBC085;
@@ -324,6 +324,9 @@ nav ul li a {
     color: #C49075;
 }
 
+#city-cycles .full-width .half-width a:hover {
+    color: #C49075;
+}
 
 /***** CC - NAV *****/
 
@@ -667,4 +670,56 @@ nav ul li a {
     padding-left: 50px;
     font-size: 26px;
     line-height: 1.5;
+}
+
+/***** INSTRUCTORHQ *****/
+
+/***** IHQ - HOME *****/
+
+#instructor .full-width .half-width a h1 {
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    color: #BBC085;
+    font-weight: 400;
+    padding: 65px 0 65px 25px;
+    text-decoration: none !important;
+}
+
+#instructor a:hover {
+    color: #C49075;
+}
+
+/***** SANDBOX *****/
+
+/***** SANDBOX - HOME *****/
+
+#sandbox .full-width .half-width a h1 {
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    color: #BBC085;
+    font-weight: 400;
+    padding: 65px 0 65px 25px;
+    text-decoration: none !important;
+}
+
+#sandbox a:hover {
+    color: #C49075;
+}
+
+/***** REMOVING TEXT DECORATION  *****/
+
+#testing .full-width a {
+    text-decoration-line: none;
+}
+
+#city-cycles .full-width .half-width a {
+    text-decoration: none;
+}
+
+#instructor .full-width .half-width a {
+    text-decoration: none;
+}
+
+#sandbox .full-width .half-width a {
+    text-decoration: none;
 }
