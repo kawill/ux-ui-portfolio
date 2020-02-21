@@ -689,6 +689,278 @@ nav ul li a {
     color: #C49075;
 }
 
+/***** IHQ- NAV *****/
+
+#ihq-nav a:hover {
+    color: #24CD98;
+}
+
+#ihq-nav nav {
+    float: right;
+    padding: 0 2px 0 0;
+}
+
+#ihq-nav nav ul li{
+    display: inline-block;
+}
+
+#ihq-nav nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #828282;
+    padding-right: 30px;
+}
+
+#ihq-nav {
+    height: 200px;
+}
+
+/***** IHQ - OVERVIEW *****/
+
+#ihq-overview {
+    height: 575px;
+}
+
+#ihq-overview h1 {
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    color: #24CD98;
+    font-weight: 400;
+    padding: 65px 0 34px 25px;
+    text-decoration: none !important;
+}
+
+#ihq-overview .ihq-overview-flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#ihq-overview .ihq-overview-flex img {
+    padding-left: 25px;
+    padding-top: 80px;
+    width: 80%;
+}
+
+
+/***** IHQ - WEBSITE *****/
+
+#ihq-desk {
+    height: 1000px;
+}
+
+#ihq-desk h1 {
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    color: #24CD98;
+    font-weight: 400;
+    padding: 65px 0 34px 25px;
+    text-decoration: none !important;
+}
+
+#ihq-desk h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    padding-left: 50px;
+    margin: 30px 0;
+}
+
+#ihq-desk h3 {
+    font-size: 21px;
+    line-height: 32px;
+    padding-left: 50px;
+    margin: 15px 0;
+    color: #828282;
+}
+
+#ihq-desk .ihq-desk-flex {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 60px;
+}
+
+#ihq-desk .ihq-desk-flex video {
+    width: 1000px;
+    height: 562.5px;
+}
+
+.ihq-desk-img-background {
+    width: 230px;
+    height: 68px;
+    background-color: #24CD98;
+    top: 10.5px;
+    left: 10.5px;
+    text-align: center;
+    color: #2b2b2b;
+    text-decoration: none;
+}
+
+.ihq-desk-button {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+
+.ihq-desk-overlay {
+    width: 230px;
+    height: 68px;
+    transition: .5s ease;
+    background-color: #9b9b9b;
+    opacity: 0;
+    position: absolute;
+}
+
+#ihq-desk .ihq-desk-button:hover .ihq-desk-overlay {
+    opacity: 1;
+}
+
+.ihq-desk-overlay-text {
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#ihq-desk .full-width a {
+    text-decoration: none;
+}
+
+/***** IHQ - MOBILE APP *****/
+
+#ihq-app {
+    height: 1000px;
+}
+
+#ihq-app h1 {
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    color: #24CD98;
+    font-weight: 400;
+    padding: 65px 0 34px 25px;
+    text-decoration: none !important;
+}
+
+#ihq-app h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    padding-left: 50px;
+    margin: 30px 0;
+}
+
+#ihq-app h3 {
+    font-size: 21px;
+    line-height: 32px;
+    padding-left: 50px;
+    margin: 15px 0;
+    color: #828282;
+}
+
+#ihq-app .ihq-app-flex {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 60px;
+}
+
+#ihq-app .ihq-app-flex video {
+    width: 316.4px;
+    height: 562.5px;
+}
+
+.ihq-app-img-background {
+    width: 230px;
+    height: 68px;
+    background-color: #24CD98;
+    top: 10.5px;
+    left: 10.5px;
+    text-align: center;
+    color: #2b2b2b;
+    text-decoration: none;
+}
+
+.ihq-app-button {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+
+.ihq-app-overlay {
+    width: 230px;
+    height: 68px;
+    transition: .5s ease;
+    background-color: #9b9b9b;
+    opacity: 0;
+    position: absolute;
+}
+
+#ihq-app .ihq-app-button:hover .ihq-app-overlay {
+    opacity: 1;
+}
+
+.ihq-app-overlay-text {
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#ihq-app .full-width a {
+    text-decoration: none;
+}
+
+/***** IHQ - MISC *****/
+
+#ihq-misc {
+    height: 450px;
+}
+
+#ihq-misc h1 {
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    color: #24CD98;
+    font-weight: 400;
+    padding: 65px 0 34px 25px;
+    text-decoration: none !important;
+}
+
+#ihq-misc h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    padding-left: 50px;
+    margin: 30px 0;
+}
+
+#ihq-misc h3 {
+    font-size: 21px;
+    line-height: 32px;
+    padding-left: 50px;
+    margin: 15px 0;
+    color: #828282;
+}
+
+#ihq-misc .full-width .ihq-misc-flex .half-width {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 15px;
+}
+
+#ihq-misc .full-width .ihq-misc-flex .sun-moon img {
+    border: 3px solid #24CD98;
+    border-radius: 20px;
+}
+
+
 /***** SANDBOX *****/
 
 /***** SANDBOX - HOME *****/
