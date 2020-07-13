@@ -268,7 +268,7 @@ nav ul li a {
 /***** CC - OVERVIEW *****/
 
 #cc-overview {
-    height: 950px;
+    height: 850px;
 }
 
 #cc-overview h1 {
@@ -276,7 +276,7 @@ nav ul li a {
     font-size: 36px;
     /*color: #D67313;*/
     font-weight: 600;
-    padding: 65px 0 34px 25px;
+    padding: 32px 0 0 25px;
     text-decoration: none !important;
 }
 
@@ -305,10 +305,14 @@ nav ul li a {
     max-width: 100%;
 }
 
+#cc-overview .cc-overview-img {
+    padding-top: 10%;
+}
+
 /***** CC - SUMMARY *****/
 
 #cc-summary {
-    height: 950px;
+    height: 1350px;
 }
 
 #cc-summary h1 {
@@ -325,8 +329,17 @@ nav ul li a {
     font-size: 30px;
     color: #D67313;
     /*padding-left: 50px;*/
-    padding: 65px 0 34px 65px;
+    padding: 32px 0 34px 65px;
     margin: 30px 0;
+}
+
+#cc-summary h3 {
+    font-size: 26px;
+    line-height: 32px;
+    padding-left: 50px;
+    margin: 15px 0;
+    color: #828282;
+    text-align: center;
 }
 
 #cc-summary p {
@@ -338,10 +351,47 @@ nav ul li a {
     margin: 30px auto;
 }
 
+#cc-summary .cc-gif-grid-container-desktop {
+    display: grid;
+    /*grid-template-rows: 100% 100%;*/
+    grid-template-columns: 33% 33% 33%;
+    align-content: space-evenly;
+    justify-content: center;
+    grid-gap: 25px;
+    padding: 55px;
+}
+
+#cc-summary .cc-gif-grid-item-desk {
+    /*width: 200px;*/
+}
+
+#cc-summary .cc-gif-grid-item-desk video {
+   max-width: 100%;
+}
+
+#cc-summary .cc-gif-grid-container-mobile {
+    display: grid;
+    /*grid-template-rows: 100% 100%;*/
+    grid-template-columns: 25% 25%;
+    align-content: space-evenly;
+    justify-content: center;
+    /*grid-gap: 50px;*/
+    padding: 55px 55px 55px 178px;
+}
+
+#cc-summary .cc-gif-grid-item-mobile {
+    width: 200px;
+}
+
+#cc-summary .cc-gif-grid-item-mobile video {
+   max-width: 100%;
+}
+
+
 /***** CC - UX AUDIT *****/
 
 #cc-ux-audit {
-    height: 4300px;
+    height: 4000px;
 }
 
 #cc-ux-audit h1 {
@@ -349,7 +399,7 @@ nav ul li a {
     font-size: 36px;
     /*color: #D67313;*/
     font-weight: 600;
-    padding: 65px 0 34px 25px;
+    padding: 32px 0 34px 25px;
     text-decoration: none !important;
 }
 
@@ -358,7 +408,7 @@ nav ul li a {
     font-size: 30px;
     color: #D67313;
     /*padding-left: 50px;*/
-    padding: 65px 0 34px 65px;
+    padding: 32px 0 34px 65px;
     margin: 30px 0;
 }
 
@@ -378,6 +428,10 @@ nav ul li a {
     line-height: 34px;
     letter-spacing: 0.26px;
     margin: 30px auto;
+}
+
+#cc-ux-audit span {
+    font-weight: bold;
 }
 
 .cc-wall-of-text {
@@ -406,7 +460,7 @@ nav ul li a {
 /***** CC - UX REDESIGN *****/
 
 #cc-ux-redesign {
-    height: 9400px;
+    height: 8000px;
 }
 
 #cc-ux-redesign h1 {
@@ -414,7 +468,7 @@ nav ul li a {
     font-size: 36px;
     /*color: #D67313;*/
     font-weight: 600;
-    padding: 65px 0 34px 25px;
+    padding: 32px 0 0 25px;
     text-decoration: none !important;
 }
 
@@ -423,14 +477,14 @@ nav ul li a {
     font-size: 30px;
     color: #D67313;
     /*padding-left: 50px;*/
-    padding: 65px 0 34px 65px;
+    padding: 32px 0 34px 65px;
     margin: 30px 0;
 }
 
 #cc-ux-redesign h3 {
     font-size: 26px;
     line-height: 32px;
-    padding-left: 50px;
+    /*padding-left: 50px;*/
     margin: 15px 0;
     color: #828282;
     text-align: center;
@@ -443,6 +497,10 @@ nav ul li a {
     line-height: 34px;
     letter-spacing: 0.26px;
     margin: 30px auto;
+}
+
+#cc-ux-redesign span {
+    font-weight: bold;
 }
 
 #cc-ux-redesign .cc-ux-redesign-flex-interview {
@@ -458,7 +516,7 @@ nav ul li a {
 #cc-ux-redesign .cc-ux-redesign-flex-lo-fi, #cc-ux-redesign .cc-ux-redesign-flex-flow, #cc-ux-redesign .cc-ux-redesign-flex-form  {
     display: flex;
     justify-content: space-evenly;
-    padding-bottom: 60px;
+    /*padding-bottom: 60px;*/
 }
 
 #cc-ux-redesign .cc-ux-redesign-flex-lo-fi {
@@ -518,6 +576,24 @@ nav ul li a {
     text-align: center;
 }
 
+.cc-horizontal-scroll {
+    margin: 0 auto;
+    width: 19%;
+}
+
+.cc-horizontal-scroll video {
+    width: 200px;
+}
+
+.cc-vertical-scroll {
+    margin: 0 auto;
+    width: 19%;
+}
+
+.cc-vertical-scroll video {
+    width: 200px;
+}
+
 #cc-ux-redesign .cc-prototype-button {
       background-color: #D67313; /* CC Orange Brown */
       border: none;
@@ -535,6 +611,29 @@ nav ul li a {
 
 #cc-ux-redesign .cc-prototype-button:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#cc-ux-redesign .button-fix {
+    margin: 0 auto;
+    width: 19%;
+}
+
+#cc-ux-redesign .cc-gif-grid-container-desktop {
+    display: grid;
+    /*grid-template-rows: 100% 100%;*/
+    grid-template-columns: 33% 33% 33%;
+    align-content: space-evenly;
+    justify-content: center;
+    grid-gap: 25px;
+    padding: 55px;
+}
+
+#cc-ux-redesign .cc-gif-grid-item-desk {
+    /*width: 200px;*/
+}
+
+#cc-ux-redesign .cc-gif-grid-item-desk video {
+   max-width: 100%;
 }
 
 /***** CC - RETROSPECTIVE *****/
