@@ -633,7 +633,7 @@ nav ul li a {
 /***** TS - OVERVIEW *****/
 
 #ts-overview {
-    height: 1200px;
+    height: 1050px;
 }
 
 #ts-overview h1 {
@@ -641,7 +641,7 @@ nav ul li a {
     font-size: 36px;
     /*color: #006644;*/
     font-weight: 600;
-    padding: 65px 0 34px 25px;
+    padding: 65px 0 0 25px;
     text-decoration: none !important;
 }
 
@@ -670,10 +670,19 @@ nav ul li a {
     max-width: 100%;
 }
 
+#ts-overview .ts-overview-img {
+    padding-top: 10%;
+}
+
+#ts-overview span {
+    font-weight: bold;
+    font-style: italic;
+}
+
 /***** TS- SUMMARY *****/
 
 #ts-summary {
-    height: 950px;
+    height: 1500px;
 }
 
 #ts-summary h1 {
@@ -690,8 +699,17 @@ nav ul li a {
     font-size: 30px;
     color: #006644;
     /*padding-left: 50px;*/
-    padding: 65px 0 34px 65px;
+    padding: 65px 0 17px 65px;
     margin: 30px 0;
+}
+
+#ts-summary h3 {
+    font-size: 26px;
+    line-height: 32px;
+    /*padding-left: 50px;*/
+    margin: 15px 0;
+    color: #828282;
+    text-align: center;
 }
 
 #ts-summary p {
@@ -701,6 +719,24 @@ nav ul li a {
     line-height: 34px;
     letter-spacing: 0.26px;
     margin: 30px auto;
+}
+
+#ts-summary .ts-gif-grid-container {
+    display: grid;
+    /*grid-template-rows: 100% 100%;*/
+    grid-template-columns: 25% 25% 25% 25%;
+    align-content: space-evenly;
+    justify-content: center;
+    /*grid-gap: 50px;*/
+    padding: 55px;
+}
+
+#ts-summary .ts-gif-grid-item {
+    width: 200px;
+}
+
+#ts-summary .ts-gif-grid-item video {
+   max-width: 100%;
 }
 
 #ts-summary .ts-prototype-button {
@@ -722,10 +758,18 @@ nav ul li a {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
+#ts-summary .ts-prototype-button {
+    margin: 0 auto;
+}
+
+#ts-summary span {
+    font-weight: bold;
+}
+
 
 /***** TS DISCOVERY *****/
 #ts-discovery {
-    height: 1650px;
+    height: 1550px;
 }
 
 #ts-discovery h1 {
@@ -733,7 +777,7 @@ nav ul li a {
     font-size: 36px;
     /*color: #006644;*/
     font-weight: 600;
-    padding: 65px 0 34px 25px;
+    padding: 32px 0 0 25px;
     text-decoration: none !important;
 }
 
@@ -742,7 +786,7 @@ nav ul li a {
     font-size: 30px;
     color: #006644;
     /*padding-left: 50px;*/
-    padding: 65px 0 34px 65px;
+    padding: 32px 0 34px 65px;
     margin: 30px 0;
 }
 
@@ -758,7 +802,7 @@ nav ul li a {
 
 /***** TS SYNTHESIS *****/
 #ts-synthesis {
-    height: 1000px;
+    height: 800px;
 }
 
 #ts-synthesis h1 {
@@ -766,7 +810,7 @@ nav ul li a {
     font-size: 36px;
     /*color: #006644;*/
     font-weight: 600;
-    padding: 65px 0 34px 25px;
+    padding: 32px 0 0 25px;
     text-decoration: none !important;
 }
 
@@ -775,7 +819,7 @@ nav ul li a {
     font-size: 30px;
     color: #006644;
     /*padding-left: 50px;*/
-    padding: 65px 0 34px 65px;
+    padding: 32px 0 34px 65px;
     margin: 30px 0;
 }
 
@@ -790,7 +834,7 @@ nav ul li a {
 
 /***** TS DESIGN REFINE *****/
 #ts-design {
-    height: 11000px;
+    height: 11500px;
 }
 
 #ts-design h1 {
@@ -798,7 +842,7 @@ nav ul li a {
     font-size: 36px;
     /*color: #006644;*/
     font-weight: 600;
-    padding: 65px 0 34px 25px;
+    padding: 32px 0 0 25px;
     text-decoration: none !important;
 }
 
@@ -807,7 +851,7 @@ nav ul li a {
     font-size: 30px;
     color: #006644;
     /*padding-left: 50px;*/
-    padding: 65px 0 34px 65px;
+    padding: 32px 0 34px 65px;
     margin: 30px 0;
 }
 
@@ -832,9 +876,22 @@ nav ul li a {
     letter-spacing: 0.26px;
 }
 
+#ts-design span {
+    font-weight: bold;
+}
+
+#ts-design h3 {
+    font-size: 26px;
+    line-height: 32px;
+    /*padding-left: 50px;*/
+    margin: 15px 0;
+    color: #828282;
+    text-align: center;
+}
+
 /***** TS RETROSPECTIVE *****/
 #ts-retrospective {
-    height: 1700px;
+    height: 1350px;
 }
 
 #ts-retrospective h1 {
@@ -842,7 +899,7 @@ nav ul li a {
     font-size: 36px;
     /*color: #006644;*/
     font-weight: 600;
-    padding: 65px 0 34px 25px;
+    padding: 32px 0 0 25px;
     text-decoration: none !important;
 }
 
@@ -851,7 +908,7 @@ nav ul li a {
     font-size: 30px;
     color: #006644;
     /*padding-left: 50px;*/
-    padding: 65px 0 34px 65px;
+    padding: 32px 0 34px 65px;
     margin: 30px 0;
 }
 
@@ -874,6 +931,11 @@ nav ul li a {
     font-weight: 400;
     line-height: 34px;
     letter-spacing: 0.26px;
+}
+
+#ts-retrospective span {
+    font-weight: bold;
+    font-style: italic;
 }
 
 .ts-img-fix {
