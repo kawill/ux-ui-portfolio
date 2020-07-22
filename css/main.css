@@ -701,6 +701,15 @@ nav ul li a {
     text-decoration: none !important;
 }
 
+#ts-title h2 {
+    /*font-family: 'Lora', serif;*/
+    font-size: 20px;
+    /*color: #006644;*/
+    font-weight: 100;
+    /*padding: 65px 0 34px 25px;*/
+    text-decoration: none !important;
+}
+
 /***** TS - NAV *****/
 
 #ts-nav a:hover {
@@ -727,6 +736,53 @@ nav ul li a {
 
 #ts-nav {
     height: 35px;
+    padding-top: 25px;
+}
+
+/***** TS - LANDING *****/
+
+#ts-landing {
+    height: 600px;
+}
+
+#ts-landing h3 {
+    font-size: 26px;
+    line-height: 32px;
+    /*padding-left: 50px;*/
+    margin: 15px 0;
+    color: #828282;
+    text-align: center;
+}
+
+#ts-landing h4 {
+    text-align: center;
+}
+
+#ts-landing p {
+    font-size: 1.4rem;
+    padding: 0 20% 0 20%;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0.26px;
+    margin: 30px auto;
+}
+
+#ts-landing .ts-landing-grid-container {
+    display: grid;
+    /*grid-template-rows: 100% 100%;*/
+    grid-template-columns: 33% 33% 33%;
+    align-content: space-evenly;
+    justify-content: center;
+    /*grid-gap: 50px;*/
+    padding: 80px 55px 55px 170px;
+}
+
+#ts-landing .ts-landing-grid-item {
+    width: 200px;
+}
+
+#ts-landing .ts-landing-grid-item img {
+   max-width: 100%;
 }
 
 /***** TS - OVERVIEW *****/
