@@ -237,6 +237,15 @@ nav ul li a {
     text-decoration: none !important;
 }
 
+#cc-title h2 {
+    /*font-family: 'Lora', serif;*/
+    font-size: 20px;
+    /*color: #006644;*/
+    font-weight: 100;
+    /*padding: 65px 0 34px 25px;*/
+    text-decoration: none !important;
+}
+
 /***** CC - NAV *****/
 
 #cc-nav a:hover {
@@ -263,7 +272,69 @@ nav ul li a {
 
 #cc-nav {
     height: 35px;
+    padding-top: 25px;
 }
+
+/***** CC - LANDING *****/
+
+#cc-landing {
+    height: 600px;
+}
+
+#cc-landing h3 {
+    font-size: 26px;
+    line-height: 32px;
+    /*padding-left: 50px;*/
+    margin: 15px 0;
+    color: #828282;
+    text-align: center;
+}
+
+#cc-landing h4 {
+    text-align: center;
+}
+
+#cc-landing p {
+    font-size: 1.4rem;
+    padding: 0 20% 0 20%;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0.26px;
+    margin: 30px auto;
+}
+
+#cc-landing .cc-landing-grid-container {
+    display: grid;
+    /*grid-template-rows: 100% 100%;*/
+    grid-template-columns: 68% 25%;
+    align-content: space-evenly;
+    justify-content: center;
+    /*grid-gap: 50px;*/
+    padding: 80px 55px 55px 170px;
+}
+
+#cc-landing .cc-landing-grid-item {
+    /*width: 200px;*/
+}
+
+#cc-landing .cc-landing-grid-item #landing-laptop-img {
+    /*width: 200px;*/
+    max-width: 100%;
+}
+
+#cc-landing #landing-mobile {
+    padding-top: 46%;
+}
+
+#cc-landing .cc-landing-grid-item #landing-mobile-img {
+    max-width: 55%;
+    padding-left: 22%;
+}
+
+#cc-landing .cc-landing-grid-item img {
+   /*max-width: 100%;*/
+}
+
 
 /***** CC - OVERVIEW *****/
 
