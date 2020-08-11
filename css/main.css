@@ -913,7 +913,7 @@ nav ul li a {
 /***** TS- SUMMARY *****/
 
 #ts-summary {
-    height: 1500px;
+    height: 1100px;
 }
 
 #ts-summary h1 {
@@ -1000,7 +1000,7 @@ nav ul li a {
 
 /***** TS DISCOVERY *****/
 #ts-discovery {
-    height: 1550px;
+    height: 650px;
 }
 
 #ts-discovery h1 {
@@ -1030,6 +1030,17 @@ nav ul li a {
     margin: 30px auto;
 }
 
+#ts-discovery ol {
+    padding: 0 20% 0 30%;
+    margin: 30px auto;
+}
+
+#ts-discovery li {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0.26px;
+}
 
 /***** TS SYNTHESIS *****/
 #ts-synthesis {
@@ -1065,7 +1076,7 @@ nav ul li a {
 
 /***** TS DESIGN REFINE *****/
 #ts-design {
-    height: 11500px;
+    height: 10400px;
 }
 
 #ts-design h1 {
@@ -1092,6 +1103,11 @@ nav ul li a {
     font-weight: 400;
     line-height: 34px;
     letter-spacing: 0.26px;
+    margin: 30px auto;
+}
+
+#ts-design ol {
+    padding: 0 20% 0 30%;
     margin: 30px auto;
 }
 
@@ -1122,7 +1138,7 @@ nav ul li a {
 
 /***** TS RETROSPECTIVE *****/
 #ts-retrospective {
-    height: 1350px;
+    height: 1450px;
 }
 
 #ts-retrospective h1 {
@@ -1254,7 +1270,7 @@ nav ul li a {
 /***** AMERITEST AT SUMMARY *****/
 
 #at-summary {
-    height: 950px;
+    height: 1000px;
 }
 
 #at-summary h1 {
