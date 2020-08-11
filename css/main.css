@@ -388,7 +388,7 @@ nav ul li a {
 /***** CC - SUMMARY *****/
 
 #cc-summary {
-    height: 1350px;
+    height: 1550px;
 }
 
 #cc-summary h1 {
@@ -412,7 +412,7 @@ nav ul li a {
 #cc-summary h3 {
     font-size: 26px;
     line-height: 32px;
-    padding-left: 50px;
+    padding-left: 24px;
     margin: 15px 0;
     color: #828282;
     text-align: center;
@@ -463,6 +463,26 @@ nav ul li a {
    max-width: 100%;
 }
 
+.cc-desktop-reservation {
+    /*margin: 0 auto;*/
+    /*width: 19%;*/
+}
+
+.cc-desktop-reservation video {
+    width: 50%;
+    padding-left: 28%;
+}
+
+.cc-mobile-reservation {
+    /*margin: 0 auto;*/
+    /*width: 19%;*/
+}
+
+.cc-mobile-reservation video {
+    width: 25%;
+    padding-left: 40%;
+    padding-top: 5%;
+}
 
 /***** CC - UX AUDIT *****/
 
@@ -536,7 +556,7 @@ nav ul li a {
 /***** CC - UX REDESIGN *****/
 
 #cc-ux-redesign {
-    height: 8000px;
+    height: 8550px;
 }
 
 #cc-ux-redesign h1 {
