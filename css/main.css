@@ -72,7 +72,8 @@ nav ul li a {
 
 #home h2 a {
     text-decoration: none;
-    color: #9b9b9b;
+    /*color: #9b9b9b;*/
+    color: #C49075;
 }
 
 /*#home a:hover {
@@ -83,7 +84,8 @@ nav ul li a {
 /***** WORK SECTION *****/
 
 #work {
-    height: 1200px;
+    /*height: 1200px;*/
+    height: 950px;
     text-align: center;
 }
 
